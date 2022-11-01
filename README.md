@@ -12,3 +12,15 @@ All leased computers were imported to the TeamDynamix Assets application. One ch
 new status.
 6. Upload a report to an Azure Blob Container containing successful and unsuccessful updates.
 7. Send a message to the refresh team in Teams via a Teams webhook.
+
+**Notification from Teams**
+
+![Notification from Teams](https://i.imgur.com/9WbYA9u.png)
+
+**Verify updates in TeamDynamix**
+
+![Verify updates in TeamDynamix](https://i.imgur.com/5qza0xI.png)
+
+**Check log for failures**
+
+![Check log for failures](https://i.imgur.com/h08TeuY.png)
