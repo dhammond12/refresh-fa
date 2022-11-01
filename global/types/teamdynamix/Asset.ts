@@ -1,0 +1,56 @@
+import Attribute from './Attribute';
+
+interface Asset {
+    ID: number;
+    AppID: number;
+    AppName: string;
+    FormID: number;
+    FormName: string;
+    ProductModelID: number;
+    ProductModelName: string;
+    ManufacturerID: number;
+    ManufacturerName: string;
+    SupplierID: number;
+    SupplierName: string;
+    StatusID: number;
+    StatusName: string;
+    LocationID: number;
+    LocationName: string;
+    LocationRoomID: number;
+    LocationRoomName: string;
+    Tag: string | null;
+    SerialNumber: string | null;
+    Name: string | null;
+    PurchaseCost: number;
+    AcquisitionDate: string;
+    ExpectedReplacementDate: string;
+    RequestingCustomerID: string;
+    RequestingCustomerName: string;
+    RequestingDepartmentID: number;
+    RequestingDepartmentName: string;
+    OwningCustomerID: string;
+    OwningCustomerName: string;
+    OwningDepartmentID: number;
+    OwningDepartmentName: string;
+    ParentID: number;
+    ParentSerialNumber: string;
+    ParentName: string;
+    ParentTag: string;
+    MaintenanceScheduleID: number;
+    MaintenanceScheduleName: string;
+    ConfigurationItemID: number;
+    CreatedDate: string;
+    CreatedUid: string;
+    CreatedFullName: string;
+    ModifiedDate: string;
+    ModifiedUid: string;
+    ModifiedFullName: string;
+    ExternalID: string | null;
+    ExternalSourceID: number;
+    ExternalSourceName: string;
+    Attributes: Attribute[] | null;
+    Attachments: any[] | null;
+    Uri: string;
+}
+
+export default Asset;
